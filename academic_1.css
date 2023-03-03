@@ -29,9 +29,27 @@ ul ul {
     font-size: 0.9em;
 }
 
-section.title_class header {
-    background-color: #ffffffef;
-    text-align: right;
+section.title>h1 {
+    font-family: "CMU Bright", "Segoe UI Semibold";
+    color: #ffffff;
+    background-color: var(--academic_1-main);
+    border-radius: 25px;
+    text-align: center;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 0.2em;
+    height: auto;
+}
+
+/* remake this to be positioned with respect to h1 */
+section.title>p {
+    position: relative;
+    text-align: center;
+    top: 35px;
 }
 
 section.lead h1 {
