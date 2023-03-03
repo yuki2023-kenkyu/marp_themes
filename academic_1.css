@@ -29,6 +29,11 @@ ul ul {
     font-size: 0.9em;
 }
 
+section.title_class {
+    color: #ffffffef;
+    text-align: right;
+}
+
 section.lead h1 {
     color: #4d0fdd;
     text-align: left;
