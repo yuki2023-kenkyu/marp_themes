@@ -71,12 +71,11 @@ h1:nth-of-type(1) {
 /* https://zenn.dev/cota_hu/books/marp-beginner-advanced/viewer/create-9 */
 
 blockquote {
+    max-width: 90%;
     border-top: 0.1em dashed #555;
     font-size: 60%;
-    max-width: 90%;
     position: absolute;
-    bottom: 32px;
-    padding-left: 0px;
+    bottom: 25px;
 }
 
 blockquote::before {
