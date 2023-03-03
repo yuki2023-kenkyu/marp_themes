@@ -4,8 +4,8 @@
 
 :root {
     font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif;
-    --beamer_1-main: #1f38c5;
-    --beamer_1-secondary: #141414;
+    --beamer-main: #1f38c5;
+    --beamer-secondary: #141414;
 }
 
 section {
@@ -22,7 +22,7 @@ section {
 header {
     font-size: 0.6em;
     /* this text-align is important */
-    text-align: right;
+    text-align: left;
     /* I don't like this absolute positioning, but it works */
     position: absolute;
     top: 96.2%;
@@ -109,7 +109,7 @@ blockquote {
 section.title>h1 {
     font-family: "CMU Bright", "Segoe UI Semibold";
     color: #ffffff;
-    background-color: var(--beamer_1-main);
+    background-color: var(--beamer-main);
     border-radius: 25px;
     text-align: center;
     top: 25%;
