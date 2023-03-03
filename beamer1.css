@@ -45,11 +45,9 @@ footer {
 }
 
 blockquote {
-    max-width: 90%;
     border-top: 0.1em dashed #555;
     font-size: 60%;
-    position: absolute;
-    bottom: 20px;
+    margin-top: auto;
 }
 
 h1,
