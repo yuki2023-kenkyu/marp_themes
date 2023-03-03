@@ -109,3 +109,12 @@ img[alt~="center"] {
 code {
     font-family: 'Source Code Pro', monospace;
 }
+
+footer {
+    width: 100%;
+    background-color: silver;
+    color: black;
+    text-align: left;
+    padding: 15px;
+    font-style: oblique;
+}
