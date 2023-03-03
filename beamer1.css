@@ -139,11 +139,3 @@ blockquote {
     position: absolute;
     bottom: 20px;
 }
-
-blockquote::before {
-    content: "";
-}
-
-blockquote::after {
-    content: "";
-}
