@@ -22,7 +22,7 @@ section {
 header {
     font-size: 0.6em;
     /* this text-align is important */
-    text-align: right;
+    text-align: left;
     /* I don't like this absolute positioning, but it works */
     position: absolute;
     top: 96.2%;
@@ -48,6 +48,7 @@ blockquote {
     border-top: 0.1em dashed #555;
     font-size: 60%;
     margin-top: auto;
+    bottom: 15px;
 }
 
 h1,
