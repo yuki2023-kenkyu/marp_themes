@@ -131,3 +131,19 @@ section.tinytext>ul,
 section.tinytext>blockquote {
     font-size: 0.65em;
 }
+
+blockquote {
+    max-width: 90%;
+    border-top: 0.1em dashed #555;
+    font-size: 60%;
+    position: absolute;
+    bottom: 20px;
+}
+
+blockquote::before {
+    content: "";
+}
+
+blockquote::after {
+    content: "";
+}
