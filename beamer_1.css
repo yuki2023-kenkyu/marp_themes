@@ -1,11 +1,11 @@
-/* @theme beamer_1 */
+/* @theme beamer */
 
 @import "default";
 
 :root {
     font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif;
-    --beamer_1-main: #1f38c5;
-    --beamer_1-secondary: #141414;
+    --beamer-main: #1f38c5;
+    --beamer-secondary: #141414;
 }
 
 section {
@@ -57,8 +57,8 @@ h6 {
 h1:nth-of-type(1) {
     font-family: "CMU Bright", "Segoe UI Semibold";
     color: #ffffff;
-    background-color: var(--beamer_1-main);
-    border-top: 0.3em solid var(--beamer_1-main);
+    background-color: var(--beamer-main);
+    border-top: 0.3em solid var(--beamer-main);
     padding: 0;
     position: absolute;
     top: 0;
@@ -97,19 +97,13 @@ img[alt~="center"] {
     margin: 0 auto;
 }
 
-blockquote {
-    border-top: 0.1em dashed #555;
-    font-size: 60%;
-    margin-top: auto;
-}
-
 /* || SECTION CLASS: title */
 /* title page - only to be used as for a single slide */
 /* <!-- _class: title --> */
 section.title>h1 {
     font-family: "CMU Bright", "Segoe UI Semibold";
     color: #ffffff;
-    background-color: var(--beamer_1-main);
+    background-color: var(--beamer-main);
     border-radius: 25px;
     text-align: center;
     top: 25%;
