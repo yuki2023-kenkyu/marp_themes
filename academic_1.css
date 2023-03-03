@@ -13,14 +13,14 @@
 
 section {
     background-image: none;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', "Segoe UI", sans-serif;
     padding-top: 90px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 /* https://github.com/marp-team/marpit/issues/271 */
-section::after {
+section::before {
     font-weight: 700;
     content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
 }
