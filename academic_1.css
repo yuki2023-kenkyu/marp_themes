@@ -20,7 +20,7 @@ section {
 }
 
 /* https://github.com/marp-team/marpit/issues/271 */
-section::before {
+section::after {
     font-weight: 700;
     content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
 }
